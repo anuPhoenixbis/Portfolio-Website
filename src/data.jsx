@@ -1,5 +1,7 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import Socket from './assets/Socket.png'
+import FoodVision from './assets/FoodVision.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -32,26 +34,26 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-  {
-    id: nanoid(),
     img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    url: 'https://github.com/anuPhoenixbis/Medical-Chatbot',
+    github: 'https://github.com/anuPhoenixbis/Medical-Chatbot',
+    title: 'AI-Powered Medical Chatbot',
+    text: 'This project strongly demonstrates your AI + backend systems thinking. You designed an LLM-powered chatbot with vector search, efficient data ingestion, and real-world query handling—showing you understand how AI systems are actually built and deployed, not just models in isolation.',
+  },
+  {
+    id: nanoid(),
+    img: FoodVision,
+    url: 'https://foodvisionmini-anubhavstream.streamlit.app/',
+    github: 'https://github.com/anuPhoenixbis/Food_Vision_Mini',
+    title: 'FoodVisionMini – Image Classification App',
+    text: 'This project proves your core machine learning competence end-to-end: model selection, training, optimization, and deployment into a usable web interface. It shows you can take a deep learning model from research to a user-facing product.',
+  },
+  {
+    id: nanoid(),
+    img: Socket,
+    url: 'https://chat-app-anubhav-1fd5a99cfb1e.herokuapp.com/',
+    github: 'https://github.com/anuPhoenixbis/ChatApp_SocketIO',
+    title: 'Real-Time Chat Application (Socket.IO)',
+    text: 'This project showcases your move beyond CRUD APIs into real-time, event-driven backend systems. It proves you understand WebSockets, persistent connections, message broadcasting, and backend scalability—skills many juniors don’t have.',
   },
 ];
