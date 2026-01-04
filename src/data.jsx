@@ -2,6 +2,7 @@ import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import Socket from './assets/Socket.png'
 import FoodVision from './assets/FoodVision.png'
+import Comfy_store from './assets/Comfy_store.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -39,6 +40,14 @@ export const projects = [
     github: 'https://github.com/anuPhoenixbis/Medical-Chatbot',
     title: 'AI-Powered Medical Chatbot',
     text: 'This project strongly demonstrates your AI + backend systems thinking. You designed an LLM-powered chatbot with vector search, efficient data ingestion, and real-world query handling—showing you understand how AI systems are actually built and deployed, not just models in isolation.',
+  },
+  {
+    id: nanoid(),
+    img: Comfy_store,
+    url: 'https://anubhavcomfystore.netlify.app/',
+    github: 'https://github.com/anuPhoenixbis/Comfy-Store',
+    title: 'Comfy Store',
+    text: 'This project represents a practical frontend application, built to understand how modern React apps are structured, scaled, and maintained in real-world scenarios.',
   },
   {
     id: nanoid(),
