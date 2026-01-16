@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import Socket from './assets/Socket.png'
 import FoodVision from './assets/FoodVision.png'
 import Comfy_store from './assets/Comfy_store.png'
+import SocialMedia from './assets/SocialMedia.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -55,7 +56,7 @@ export const projects = [
     url: 'https://foodvisionmini-anubhavstream.streamlit.app/',
     github: 'https://github.com/anuPhoenixbis/Food_Vision_Mini',
     title: 'FoodVisionMini – Image Classification App',
-    text: 'This project proves your core machine learning competence end-to-end: model selection, training, optimization, and deployment into a usable web interface. It shows you can take a deep learning model from research to a user-facing product.',
+    text: 'This project proves the core machine learning competence end-to-end: model selection, training, optimization, and deployment into a usable web interface. It shows that can take a deep learning model from research to a user-facing product.',
   },
   {
     id: nanoid(),
@@ -64,5 +65,13 @@ export const projects = [
     github: 'https://github.com/anuPhoenixbis/ChatApp_SocketIO',
     title: 'Real-Time Chat Application (Socket.IO)',
     text: 'This project showcases your move beyond CRUD APIs into real-time, event-driven backend systems. It proves you understand WebSockets, persistent connections, message broadcasting, and backend scalability—skills many juniors don’t have.',
+  },
+  {
+    id: nanoid(),
+    img: SocialMedia,
+    url: 'https://sociableanubhav.netlify.app/',
+    github: 'https://github.com/anuPhoenixbis/Sociable_server',
+    title: 'Social Media App',
+    text: 'Sociable is a full-stack social media application built with React, Node.js, Express, and MongoDB, featuring secure JWT authentication and media uploads.Deployed a production-ready client–server architecture using Netlify (frontend) and Render (backend), handling real-world challenges like CORS, environment configuration, and dependency conflicts.',
   },
 ];
