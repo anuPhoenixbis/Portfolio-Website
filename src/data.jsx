@@ -4,6 +4,7 @@ import Socket from './assets/Socket.png'
 import FoodVision from './assets/FoodVision.png'
 import Comfy_store from './assets/Comfy_store.png'
 import SocialMedia from './assets/SocialMedia.png'
+import Store from './assets/Store.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -73,5 +74,13 @@ export const projects = [
     github: 'https://github.com/anuPhoenixbis/Sociable_server',
     title: 'Social Media App',
     text: 'Sociable is a full-stack social media application built with React, Node.js, Express, and MongoDB, featuring secure JWT authentication and media uploads.Deployed a production-ready client–server architecture using Netlify (frontend) and Render (backend), handling real-world challenges like CORS, environment configuration, and dependency conflicts.',
+  },
+  {
+    id: nanoid(),
+    img: Store,
+    url: 'https://store-project-ashy.vercel.app/',
+    github: 'https://github.com/anuPhoenixbis/Store-Project',
+    title: 'Store Project',
+    text: 'A production-style e-commerce store emphasizing data consistency, derived cart totals, and transactional order handling.Built with Next.js App Router, Prisma, Supabase, and Clerk authentication.',
   },
 ];
