@@ -5,6 +5,7 @@ import FoodVision from './assets/FoodVision.png'
 import Comfy_store from './assets/Comfy_store.png'
 import SocialMedia from './assets/SocialMedia.png'
 import Store from './assets/Store.png'
+import GitSearchUsers from './assets/GitSearchUsers.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -82,5 +83,13 @@ export const projects = [
     github: 'https://github.com/anuPhoenixbis/Store-Project',
     title: 'Store Project',
     text: 'A production-style e-commerce store emphasizing data consistency, derived cart totals, and transactional order handling.Built with Next.js App Router, Prisma, Supabase, and Clerk authentication.',
+  },
+  {
+    id: nanoid(),
+    img: GitSearchUsers,
+    url: 'https://github.com/anuPhoenixbis/github_Search_users_project',
+    github: 'https://github.com/anuPhoenixbis/github_Search_users_project',
+    title: 'Github Search Users',
+    text: 'A mini project built to learn and understand GraphQL and Apollo Client by interacting with the GitHub GraphQL API.The app allows searching GitHub users by username and fetching structured profile data using GraphQL queries.',
   },
 ];
