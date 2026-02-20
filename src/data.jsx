@@ -6,6 +6,7 @@ import Comfy_store from './assets/Comfy_store.png'
 import SocialMedia from './assets/SocialMedia.png'
 import Store from './assets/Store.png'
 import GitSearchUsers from './assets/GitSearchUsers.png'
+import Roomify from './assets/Roomify.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -36,6 +37,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: Roomify,
+    url: 'https://github.com/anuPhoenixbis/Roomify',
+    github: 'roomify-silk.vercel.app',
+    title: 'Roomify',
+    text: 'Roomify is a full-stack AI-powered architectural visualization platform that transforms 2D room layouts into AI-generated 3D visualizations. Built using modern React architecture, serverless cloud backend via Puter, and generative AI workflows.',
+  },
   {
     id: nanoid(),
     img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
