@@ -7,6 +7,7 @@ import SocialMedia from './assets/SocialMedia.png'
 import Store from './assets/Store.png'
 import GitSearchUsers from './assets/GitSearchUsers.png'
 import Roomify from './assets/Roomify.png'
+import Polaris from './assets/Polaris.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -37,6 +38,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: Polaris,
+    url: 'https://github.com/anuPhoenixbis/polaris',
+    github: 'https://polaris-two-delta.vercel.app/',
+    title: 'Polaris',
+    text: 'Polaris is a full-stack, AI-native code editor built on top of the ideas behind Cursor — and then pushed further. Submit a prompt, and Polaris spins up a project, seeds a conversation, and streams back AI-generated code in the background, all without blocking your workflow.',
+  },
   {
     id: nanoid(),
     img: Roomify,
